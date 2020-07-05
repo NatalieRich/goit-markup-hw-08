@@ -567,8 +567,8 @@ body {
     padding-bottom: 118px;
     padding-top: 118px;
     text-align: center;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url("../images/headermob.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/headermob.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url("../images/Headermob.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/Headermob.jpg");
     background-size: cover;
   }
 }
@@ -982,7 +982,6 @@ body {
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
-  outline: solid green;
 }
 
 .btn-filter {
@@ -991,15 +990,15 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 @media screen and (min-width: 767px) {
   .btn-filter {
     padding-top: 60px;
     padding-bottom: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -1129,7 +1128,7 @@ body {
   }
 }
 
-@media screen and (min-width: 767px) and (max-width: 767px) {
+@media screen and (min-width: 767px) and (max-width: 1200px) {
   .element:last-child {
     margin-right: 399px;
   }
