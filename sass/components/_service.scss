@@ -1,0 +1,135 @@
+// .item-service {
+//   display: flex;
+// }
+
+.features {
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 767px) {
+    width: 354px;
+    margin: 15px;
+  }
+
+  @media screen and (min-width: 767px) {
+    width: 270px;
+  }
+}
+
+.container .list {
+  @media screen and (min-width: 767px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+// .list .features:not(:last-child) {
+//   margin-right: 29px;
+// }
+.icon {
+  width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background-color: $second-bk-color;
+
+  @media screen and (max-width: 767px) {
+    max-width: 450px;
+    height: 120px;
+    padding: 25px 106px;
+  }
+
+  @media screen and (min-width: 767px) {
+    max-width: 354px;
+    height: 120px;
+    padding: 25px 50px;
+  }
+
+  @media screen and (min-width: 1140px) {
+    width: 270px;
+    height: 120px;
+    padding: 25px 106px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    background-color: $second-bk-color;
+  }
+}
+
+.list > .items {
+  margin: 15px;
+}
+
+.section .service {
+  @media screen and (max-width: 1140px) {
+    display: none;
+  }
+}
+
+.section .service,
+.section .clnt,
+.section .tm {
+  padding-bottom: 94px;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: $black-text;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.features .section-title {
+  text-transform: uppercase;
+}
+
+.description {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.caption {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* servise */
+
+.img {
+  display: block;
+}
+
+.list .items {
+  position: relative;
+}
+
+.section-list {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: inline-block;
+  margin: 0;
+  padding: 27px 70px;
+  text-align: center;
+  min-width: 370px;
+
+  color: $white-text;
+  background-color: $gray-bk-color;
+
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
